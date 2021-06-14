@@ -14,7 +14,9 @@ export default function Header({state,dispatch}){
                 <div className="logo">
                     <h3 style={{
                         color: state.isDark ? theme.fontDark900 : '#333',                    
-                        textTransform: 'uppercase'
+                        textTransform: 'uppercase',
+                        fontWeight: '900',
+                        fontSize: '2.2rem'
                     }}>{`{ ...Min }`}</h3>
                 </div>
                 <div className="toggle">

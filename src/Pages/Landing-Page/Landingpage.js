@@ -5,6 +5,7 @@ import './landingpage.css'
 import { projects } from '../../projects'
 import Skills from '../../Components/Skills'
 import { theme } from '../../theme'
+import Footer from '../../Components/Footer'
 
 export default function Landingpage({state}){
     return(
@@ -24,6 +25,7 @@ export default function Landingpage({state}){
                     })
                 }
             </div>
+            <Footer state={state} theme={theme}/>
         </div>
     )
 }

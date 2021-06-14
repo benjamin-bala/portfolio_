@@ -31,7 +31,7 @@ export default function Card({state,project}){
                             }}
                         >View project <RiArrowRightUpLine size={30} /> </a>
                         <a 
-                            href={project.project_link} 
+                            href={project.project_repo} 
                             target="_blank"
                             rel="noreferrer"
                             style={{

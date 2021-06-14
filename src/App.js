@@ -1,6 +1,5 @@
 import { useReducer } from 'react';
 import './App.css';
-import Cursor from './Components/Cursor';
 import Header from './Components/Header';
 import Landingpage from './Pages/Landing-Page/Landingpage';
 import { theme } from './theme';

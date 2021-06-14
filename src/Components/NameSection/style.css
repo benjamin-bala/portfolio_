@@ -1,0 +1,19 @@
+.name-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  place-items: center;
+  padding: 0rem 3rem;
+  max-width: 1080px;
+  margin: 0rem auto;
+  font-size: 1.5rem;
+  height: 35rem;
+}
+
+@media (max-width: 768px) {
+  .name-section {
+    grid-template-columns: 1fr;
+    place-items: unset;
+    padding: 3rem;
+    height: 25rem;
+  }
+}

@@ -3,11 +3,14 @@
   max-width: 1080px;
   margin: 0rem auto;
 }
+.name-section section:last-child {
+  padding-top: 0rem;
+}
 .name-section h1 {
-  font-size: clamp(2.4rem, 8vw - 2rem, 3.8rem);
+  font-size: clamp(2.4rem, 8vw - 2rem, 4.5rem);
 }
 .name-section p {
-  font-size: clamp(1.3rem, 3vw - 1.6rem, 2rem);
+  font-size: clamp(1.6rem, 3vw - 1.6rem, 2.2rem);
 }
 @media (max-width: 768px) {
   .name-section {

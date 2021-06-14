@@ -18,7 +18,7 @@ export default function Landingpage({state}){
                     color: state.isDark ? theme.fontDark900 : '#000',   
                     textDecoration: 'underline'
                 }}
-                >Experience</h2>
+                >Projects</h2>
                 {
                     projects.map(project => {
                         return <Card state={state} project={project}/>

@@ -30,5 +30,21 @@ export const projects = [
         project_link: 'https://nervous-panini-1916d4.netlify.app/',
         project_thumbnail:  'https://res.cloudinary.com/benjee/image/upload/v1623706148/Screenshot_2021-06-14_172515_njco3h.png',
         project_repo: 'https://github.com/benjamin-bala/countries/tree/master'
+    },
+    {
+        project_id: '05',
+        project_name: 'Buy Food Onboarding',
+        project_description: 'Onboarding page for Food tech',
+        project_link: 'https://buyfood-onboarding.netlify.app/',
+        project_thumbnail:  'https://res.cloudinary.com/benjee/image/upload/v1635800954/Screenshot_2021-11-01_165856_uhvcj5.png',
+        project_repo: 'https://github.com/benjamin-bala/buyfood-onboarding'
+    },
+    {
+        project_id: '06',
+        project_name: 'Send Freight',
+        project_description: 'This is a demo app for courier service booking',
+        project_link: 'https://freight-demo.netlify.app/',
+        project_thumbnail:  'https://res.cloudinary.com/benjee/image/upload/v1635800954/Screenshot_2021-11-01_165935_rrv4ia.png',
+        project_repo: 'https://github.com/benjamin-bala/freight'
     }
 ]
